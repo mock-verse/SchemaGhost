@@ -5,6 +5,8 @@
 > Instantly generate a fake API server from your Prisma or database schema.  
 > Develop faster with realistic mock APIs — no backend required.
 
+[![npm version](https://img.shields.io/npm/v/schemaghost.svg)](https://www.npmjs.com/package/schemaghost)
+
 ---
 
 ## What is SchemaGhost?
