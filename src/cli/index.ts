@@ -5,7 +5,7 @@ import { serve } from '../server';
 const program = new Command();
 
 program
-  .command('serve')
+  .command('schemaghost')
   .description('Start SchemaGhost mock API server')
   .option('--schema <path>', 'Path to Prisma schema file', './examples/schema.prisma')
   .option('--port <number>', 'Port to run server on', '8080')
