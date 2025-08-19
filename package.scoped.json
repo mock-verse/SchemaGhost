@@ -1,5 +1,5 @@
 {
-  "name": "schemaghost",
+  "name": "@mock-verse/schemaghost",
   "version": "0.0.4",
   "description": "Instant mock API server from database schema",
   "main": "cli/index.ts",
