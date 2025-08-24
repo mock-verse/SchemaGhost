@@ -2,7 +2,7 @@ import { faker } from '@faker-js/faker';
 
 // Map scalar types to faker generators
 
-export function generateFakeValue(fieldType: string) {
+export function generateFakeValue(fieldType: string, isList: any) {
   switch(fieldType) {
     case 'String':
       return faker.lorem.words();

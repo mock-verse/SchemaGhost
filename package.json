@@ -4,7 +4,7 @@
   "description": "Instant mock API server from database schema",
   "main": "cli/index.ts",
   "bin": {
-    "schemaghost": "cli/index.ts"
+    "schemaghost": "src/cli/index.ts"
   },
   "scripts": {
     "start": "ts-node src/cli/index.ts",
@@ -27,8 +27,8 @@
   "devDependencies": {
     "@types/commander": "^2.12.0",
     "@types/express": "^5.0.3",
-    "@types/node": "^24.2.1",
-    "mocktail-cli": "^1.1.1-beta.3",
+    "@types/node": "^24.3.0",
+    "mocktail-cli": "^1.1.1-beta.4",
     "ts-node": "^10.9.2",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.9.2"

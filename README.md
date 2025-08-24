@@ -37,3 +37,5 @@ No need to build a backend or write mocks by hand — SchemaGhost understands yo
 
 ```bash
 npm install -g schemaghost
+
+

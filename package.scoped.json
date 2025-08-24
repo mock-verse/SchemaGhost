@@ -1,10 +1,10 @@
 {
-  "name": "@mock-verse/schemaghost",
-  "version": "0.0.7",
+  "name": "@mockilo/schemaghost",
+  "version": "0.0.8",
   "description": "Instant mock API server from database schema",
   "main": "cli/index.ts",
   "bin": {
-    "schemaghost": "cli/index.ts"
+    "schemaghost": "src/cli/index.ts"
   },
   "scripts": {
     "start": "ts-node src/cli/index.ts",
