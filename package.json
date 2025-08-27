@@ -1,6 +1,6 @@
 {
   "name": "schemaghost",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "Instant mock API server from database schema",
   "main": "dist/cli/index.js",
   "bin": {
