@@ -1,6 +1,6 @@
 {
   "name": "@mockilo/schemaghost",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Instant mock API server from database schema",
   "main": "dist/cli/index.js",                
   "bin": {
