@@ -1,6 +1,7 @@
 // server/routes.ts
 import { Router } from "express";
 import { SchemaData } from "../schema/loader";
+import { eventNames, uptime } from "process";
 
 export type MockData = Record<string, any[]>; // { User: [...], Post: [...] }
 

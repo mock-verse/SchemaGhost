@@ -2,14 +2,15 @@
   "name": "@mockilo/schemaghost",
   "version": "0.0.9",
   "description": "Instant mock API server from database schema",
-  "main": "cli/index.ts",
+  "main": "dist/cli/index.js",                
   "bin": {
-    "schemaghost": "src/cli/index.ts"
+    "schemaghost": "dist/cli/index.js"        
   },
   "scripts": {
-    "start": "ts-node src/cli/index.ts",
-    "build": "tsc",
-    "dev": "ts-node-dev src/cli/index.ts"
+    "start": "node dist/cli/index.js",      
+    "dev": "ts-node-dev src/cli/index.ts",    
+    "build": "tsc",                           
+    "prepublishOnly": "npm run build"         
   },
   "keywords": [
     "mock",
