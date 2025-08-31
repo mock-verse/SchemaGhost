@@ -133,7 +133,7 @@ schemaghost --schema ./libs/shared/prisma/schema.prisma
 Clone the repo and install dependencies:
 
 ```bash
-git clone https://github.com/yourusername/schemaghost.git
+git clone https://github.com/mockilo/schemaghost.git
 cd schemaghost
 npm install
 ```
