@@ -156,4 +156,4 @@ SchemaGhost is licensed under BSL-1.1.
 ## 🔗 Links
 
 * [NPM Package](https://www.npmjs.com/package/schemaghost)
-* [GitHub Repository](https://github.com/yourusername/schemaghost)
+* [GitHub Repository](https://github.com/mockilo/schemaghost)
